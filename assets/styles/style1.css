@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 15px;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    position: relative;
+    border: 1px solid #000000;
+    height: 55px;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+}
+.links{
+    font-size: 25px;
+    margin: 10px 20px 20px 20px;
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    transition: transform 4.5s; 
+}
+.links:hover{
+    color: aliceblue;
+}
+.logo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+    height: 40px;
+    box-shadow: none;
+    transition: transform 0.5s; 
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.titles,
+.titles-about{
+    text-align: center;
+}
+.button-about{
+    display: none;
+}
+h1{
+    margin-top: 3vh;
+    font-size: 50px;
+}
+.h1-about{
+    margin-left: 0px;
+}
+.box-img-index{
+    width: 100vw;
+    height: 40vw;
+    margin-bottom: 5vh;
+}
+.img-index{
+    width: 70%;
+    height: 40vw;
+    margin: 0 15% 0 15%;
+}
+.info-home{
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 20vw;
+}
+.text-dumbbells{
+    width: 40%;
+    height: 200px;
+    font-size: 1.5rem;
+    display: inline-block;
+    position: absolute;
+    left: 5vw;
+    top: 6vw;
+}
+.container-img-dumbbells{
+    width: 40%;
+    height: 200px;
+    display: inline-block;
+    position: absolute;
+    right: 5vw;
+    top: 3vw;
+}
+.img-dumbbells{
+    width: 100%;
+}
+.figures-about{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80vw;
+    margin-left: 10vw;
+    height: 300px;
+    position: relative;
+}
+.figures-about h4,
+.info-home h4{
+    font-size: 30px;
+}
+.figures-about figure{
+    display: inline-block;
+    width: 75vw;
+    height: 285px;
+    border-radius: 10px;
+    transition: transform 0.2s; 
+}
+.figures-about figure:hover{
+    transform: scale(1.2);
+    border:1px solid #000000;
+}
+.figures-about img{
+    width: 45%;
+}
+.figures-about div{
+    display: inline-block;
+    width: 40vw;
+    right: 0vw;
+    position: absolute;
+    padding-top: 60px;
+    font-size: 1.5rem;
+}
+.info-contact{
+    width: 60vw;
+    margin-top: 3vw;
+    margin-left: 20%;
+}
+.img-contact{
+    width: 60vw;
+    height: 50vh;
+}
+.contact{
+    margin-top: 3vw;
+    position: relative;
+}
+.email,
+.tel{
+    font-size: 18px;
+}
+.tel{
+    position: absolute;
+    right: 0;
+}

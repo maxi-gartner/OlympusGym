@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 15px;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+}
+body{
+    background-color: antiquewhite;
+}
+nav{
+    position: relative;
+    border: 1px solid #000000;
+    height: 55px;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+}
+.links{
+    font-size: 25px;
+    margin: 10px 20px 20px 20px;
+    text-decoration: none;
+    color: goldenrod;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+    transition: transform 0.5s; 
+}
+.links:hover{
+    color: aliceblue;
+}
+.logo{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+    height: 40px;
+    box-shadow: none;
+    transition: transform 0.5s; 
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.box-img-index{
+    width: 98.6vw;
+    height: 40vw;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.img-index{
+    width: 90%;
+    height: 40vw;
+    margin: 0 5% 0 5%;
+}
+.titles{
+    position: absolute;
+    color: goldenrod;
+    text-shadow: 0px 0px 10px #000000;
+    top: 36vw;
+    left: 68vw;
+}
+.info-home{
+    position: relative;
+    width: 60vw;
+    margin-left: 20vw;
+}
+.container-img-dumbbells{
+    width: 50vw;
+}
+.img-dumbbells{
+    width: 60vw;
+}
+.text-dumbbells{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    border-radius: 0 0 10px 10px;
+    font-size: 26px;
+    top: 70%;
+    color: goldenrod;
+    text-shadow: 0px 0px 10px #000000;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.titles-about{
+    margin-left: 40vw;
+    margin-bottom: 5vw;
+    color: goldenrod;
+    text-shadow: 1px 1px 1px #000000;
+}
+.titles-about h2{
+    margin-left: 70px;
+}
+h1{
+    margin-left: 80px;
+    margin-top: 3vh;
+    font-size: 50px;
+}
+.subtitle{
+    margin-left: 35px;
+    margin-bottom: 5px;
+}
+.h1-about{
+    margin-left: 0px;
+}
+.info-about{
+    display: block;
+}
+.info-about h4{
+    font-size: 26px;
+}
+.figures-about{
+    display: inline-block;
+    width: 28vw;
+    height: 38vw;
+    background-color: rgba(0, 0, 0, 0.815);
+    margin-left: 4vw;
+    vertical-align:top;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    transition: transform 0.5s; 
+}
+.figures-about:hover{
+    transform:scale(1.25);
+}
+.figures-about figure{
+    margin-bottom: 3vw;
+}
+.figures-about img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.img-contact{
+    width: 90vw;
+    margin-left: 5vw;
+    height: 40vw
+}
+.info-contact{
+    width: 100vw;
+    height: 80vh;
+    font-size: 25px;
+}
+.text-info-contact{
+    width: 40vw;
+    height: 20vh;
+    position: absolute;
+    margin-left: 5vw;
+}
+.contact{
+    width: 40vw;
+    height: 20vh;
+    position: absolute;
+    right: 0;
+}
+.contact a{
+    display: block;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+.button-about{
+    margin-left: 82px;
+    font-size: 20px;
+    padding: 2px 20px 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: goldenrod;
+    background-color: black;
+    border: 1px solid goldenrod;
+    font-weight: bold;
+    transition: transform 0.5s; ;
+}
+
+.button-about:hover{
+    color: white;
+    border: 1px solid white;
+}
