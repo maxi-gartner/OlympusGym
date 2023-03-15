@@ -47,7 +47,8 @@ nav{
 }
 
 .button-about{
-    font-size: 1.7rem;
+    margin: 0.5rem 10vw 0 0;
+    font-size: 2vw;
     padding: 2px 20px 5px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -55,7 +56,7 @@ nav{
     background-color: black;
     border: 1px solid goldenrod;
     font-weight: bold;
-    transition: transform 0.5s; ;
+    transition: transform 0.5s;
 }
 
 .button-about:hover{
@@ -76,7 +77,6 @@ nav{
     justify-content: end;
     align-items: end;
     text-align: center;
-    padding-right: 3rem;
     width: 93vw;
     height: 30vw;
     margin-left: 3vw;
@@ -86,12 +86,22 @@ nav{
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    color: goldenrod;
+    text-shadow: 1px 1px 10px black;
 }
+
+.header-index h1,
+.header-index h2{
+    width: 32vw;
+    font-size: 3vw;
+}
+
 
 .header-contact{
     display: flex;
     flex-direction: column;
     justify-content: end;
+    align-items: end;
     text-align: center;
     padding-bottom: 0;
     padding-right: 1.5rem;
@@ -106,19 +116,22 @@ nav{
     background-position: center;
     border-radius: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
-    font-size: 1.5vw;
+    font-size: 2.2vw;
+    color: goldenrod;
+    text-shadow: 1px 1px 10px black;
 }
 
-.header-contact .titles{
-    margin-left: 30rem;
+.header-contact h1,
+.header-contact h2{
+    width: 40vw;
 }
 
-.titles h2{
+.header h2{
     margin-bottom: 2vw;
 }
 
-.header-schelude .titles,
-.header-tips .titles{
+.header-schelude,
+.header-tips{
     color: black;
     font-size: 1.4vw;
     width: 100vw;
@@ -169,11 +182,11 @@ nav{
     width: 25vw;
 }
 
-.figures-about div{
+.figures-about h4{
     margin-top: 2vw;
     width: 25vw;
     font-size: 1.7rem;
-    padding: 1rem 0 0 1rem;
+    padding: 1rem;
 }
 
 .figures-about{
@@ -256,12 +269,12 @@ tr:hover{
     display: flex;
 }
 
-ul {
-    list-style-type: circle;
+.figure-tips{
+    width: 60vw;
 }
 
-.style-latin{
-    list-style-type: lower-latin;
+ul {
+    list-style-type: disc;
 }
 
 .style-circle,
@@ -271,7 +284,7 @@ ul {
 
 .main-tips img{
     width: 40vw;
-    margin: 2vw 5vw 2vw 5vw;
+    margin: 2vw 0vw 2vw 5vw;
     border-radius: 10px;
     transition: transform 0.5s;
 }
@@ -286,4 +299,8 @@ ul {
     justify-content: space-between;
     padding: 5vw 0vw;
     font-size: 20px;
+}
+
+.tel-contact{
+    margin-top: 3vw;
 }
