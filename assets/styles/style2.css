@@ -106,16 +106,24 @@ nav{
     background-position: center;
     border-radius: 10px;
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    font-size: 1.5vw;
+}
+
+.header-contact .titles{
+    margin-left: 30rem;
 }
 
 .titles h2{
     margin-bottom: 2vw;
 }
 
-.titles{
-    color: goldenrod;
-    text-shadow: 0px 0px 10px #000000;
-    font-size: 1.7rem;
+.header-schelude .titles,
+.header-tips .titles{
+    color: black;
+    font-size: 1.4vw;
+    width: 100vw;
+    margin-top: 3vw;
+    text-align: center;
 }
 
 .info-home{
@@ -201,4 +209,81 @@ nav{
 
 .contact a{
     margin-top: 2vw;
+}
+
+.main-table{
+    display: flex;
+    justify-content: center
+}
+
+table{
+    width: 70vw;
+    text-align: left;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+td, th{
+    border: 1px solid black;
+    width: 10vw;
+    height: 5vw;
+    padding: 1vw;
+}
+
+thead{
+    border-bottom: 4px solid rgb(109, 83, 16);
+    background-color: rgb(177, 134, 26);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+tbody tr{
+    background-color: rgb(216, 216, 216);
+}
+
+tr:nth-child(even){
+    background-color: #a3a3a3b0;
+}
+
+tr:hover{
+    background-color: rgba(207, 157, 32, 0.548);
+}
+
+.main-tips{
+    display: flex;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.style-latin{
+    list-style-type: lower-latin;
+}
+
+.style-circle,
+.style-latin{
+    margin-left: 15px;
+}
+
+.main-tips img{
+    width: 40vw;
+    margin: 2vw 5vw 2vw 5vw;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.main-tips img:hover{
+    transform: scale(1.1);
+}
+
+.ol-tips{
+    margin: 2vw 5vw 2vw 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5vw 0vw;
+    font-size: 20px;
 }
