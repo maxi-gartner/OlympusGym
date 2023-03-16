@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Raffle</title>
+</head>
+<body>
+    <nav>
+        <div>
+            <a class="links"  href="../../index.html">Home</a>
+            <a class="links"  href="./aboutUs.html">About Us</a>
+            <a class="links"  href="./contact.html">Contact</a>
+            <a class="links"  href="./Schedule.html">Schedule</a>
+            <a class="links"  href="./benefits-and-tips.html">Benefits and Tips</a>
+            <a class="links"  href="./raffle.html">Raffle</a>
+            <ul class="nav">
+                <li>
+                    <a href="../../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="">Pages</a>
+                    <ul class="menu-options">
+                        <a href="./aboutUs.html">About Us</a>
+                        <a href="./contact.html">Contact</a>
+                        <a href="./Schedule.html">Schedule</a>
+                        <a href="./benefits-and-tips.html">Benefits and Tips</a>
+                        <a href="./raffle.html">Raffle</a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <figure>
+            <a href="../../index.html">
+                <img class="logo"  src="../images/logo.png" alt="logo">
+            </a>
+        </figure>
+    </nav>
+    <header class="header-tips">
+            <h1>Raffle</h1>
+            <h2 class="subtitle">Every month in this section you can participate in a raffle.</h2>
+    </header>
+    <main class="main-raffle">
+        <figure class="figure-raffle">
+            <img src="https://st2.depositphotos.com/1325564/7809/i/450/depositphotos_78093102-stock-photo-fitness-girl-in-gym.jpg" alt="">
+            <img src="https://i.blogs.es/410bab/danielle-cerullo-cqfnt66ttzm-unsplash/1366_2000.jpeg" alt="">
+        </figure>
+        <section class="form-raffle">
+            <h2>PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING.</h2>
+            <form action="../pages/show_data.html" method="get">
+                <fieldset>
+                    <label for="first-n">First Name</label>
+                    <input type="text" name="first-name" id="first-n">
+                    <label for="last-n">Last Name</label>
+                    <input type="text" name="last-name" id="last-n">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+                <fieldset>
+                    <label for="garden">Choose Your Gender:</label>
+                    <select name="garden" id="garden">
+                        <datalist>
+                            <option>Select Garden</option>
+                            <option value="first">First</option>
+                            <option value="second">Second</option>
+                            <option value="third">Third</option>
+                            <option value="room">Room</option>
+                            <option value="fifth">Fifth</option>
+                        </datalist>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="country">Country:</label>
+                    <select name="country" id="country">
+                        <datalist>
+                            <option>Select Coutry</option>
+                            <option value="arizona">Arizona</option>
+                            <option value="california">California</option>
+                            <option value="florida">Florida</option>
+                            <option value="kansas">Kansas</option>
+                            <option value="new-jersey">New Jersey</option>
+                        </datalist>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <h3>Payment Options:</h3>
+                    <div>
+                        <input type="radio" name="payment" id="cash" value="cash-payment">
+                        <label for="cash">Cash</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payment" id="credit" value="credit-payment">
+                        <label for="credit">Credit Cards</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="payment" id="debit" value="debit-payment">
+                        <label for="debit">Debit Cards</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <label for="services">Services</label>
+                    <input type="text" name="text-services" id="services">
+                </fieldset>
+                <fieldset style="flex-direction: row;">
+                    <label for="acepted">
+                        <input style="margin-right: 10px;" type="checkbox" name="acepted-terms" id="acepted" required>
+                        I accepted terms and conditions...
+                    </label>
+                </fieldset>
+                <input type="submit" value="Send">
+            </form> 
+        </section>
+    </main>
+    <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7102666.262984997!2d-65.85067631956265!3d-29.629874702030694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7e1ac2aa87d%3A0xa75ded4cef436325!2sOlympus%20Fitness%20%26%20Gym!5e0!3m2!1ses-419!2sar!4v1678996759817!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+</body>
+</html>
