@@ -24,6 +24,10 @@ nav{
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
 }
 
+.nav{
+    display: none;
+}
+
 .logo{
     height: 50px;
     top: 10px;
@@ -47,9 +51,10 @@ nav{
 }
 
 .button-about{
-    margin: 0.5rem 10vw 0 0;
+    width: 15vw;
     font-size: 2vw;
-    padding: 2px 20px 5px 20px;
+    padding: 2px 0px 5px 0px;
+    margin-top: 1vw;
     text-decoration: none;
     border-radius: 5px;
     color: goldenrod;
@@ -57,6 +62,12 @@ nav{
     border: 1px solid goldenrod;
     font-weight: bold;
     transition: transform 0.5s;
+}
+
+.titles-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .button-about:hover{
@@ -96,42 +107,18 @@ nav{
     font-size: 3vw;
 }
 
-
-.header-contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: end;
-    text-align: center;
-    padding-bottom: 0;
-    padding-right: 1.5rem;
-    padding-right: 3rem;
-    width: 93vw;
-    height: 30vw;
-    margin-left: 3vw;
-    margin-top: 3rem;
-    background-image: url("../images/image-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
-    font-size: 2.2vw;
-    color: goldenrod;
-    text-shadow: 1px 1px 10px black;
-}
-
 .header-contact h1,
 .header-contact h2{
     width: 40vw;
 }
 
 .header h2{
-    margin-bottom: 2vw;
+    padding-bottom: 2vw;
 }
 
 .header-schelude,
-.header-tips{
+.header-tips,
+.header-raffle{
     color: black;
     font-size: 1.4vw;
     width: 100vw;
@@ -165,6 +152,8 @@ nav{
     padding: 1rem 2rem 2rem 2rem;
     background-color: rgba(250, 235, 215, 0.664);
 }
+
+/*--------------------about Up-----------------------*/
 
 .titles-about{
     text-align: center;
@@ -202,6 +191,32 @@ nav{
     border-radius: 10px;
 }
 
+/*--------------------contact-----------------------*/
+
+.header-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+    padding-bottom: 0;
+    padding-right: 1.5rem;
+    padding-right: 3rem;
+    width: 93vw;
+    height: 30vw;
+    margin-left: 3vw;
+    margin-top: 3rem;
+    background-image: url("../images/image-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    font-size: 2.2vw;
+    color: goldenrod;
+    text-shadow: 1px 1px 10px black;
+}
+
 .text-info-contact{
     display: flex;
     justify-content: space-evenly;
@@ -229,7 +244,7 @@ nav{
     justify-content: center
 }
 
-table{
+.table-schedule{
     width: 70vw;
     text-align: left;
     border: 2px solid black;
@@ -238,14 +253,15 @@ table{
     font-size: 1.2rem;
 }
 
-td, th{
+.table-schedule td,
+.table-schedule th{
     border: 1px solid black;
     width: 10vw;
     height: 5vw;
     padding: 1vw;
 }
 
-thead{
+.table-schedule thead{
     border-bottom: 4px solid rgb(109, 83, 16);
     background-color: rgb(177, 134, 26);
     text-align: center;
@@ -253,17 +269,19 @@ thead{
     text-shadow: 2px 2px 2px black;
 }
 
-tbody tr{
+.table-schedule tbody tr{
     background-color: rgb(216, 216, 216);
 }
 
-tr:nth-child(even){
+.table-schedule tr:nth-child(even){
     background-color: #a3a3a3b0;
 }
 
-tr:hover{
+.table-schedule tr:hover{
     background-color: rgba(207, 157, 32, 0.548);
 }
+
+/*---------------------------benefits and tips-----------------------------*/
 
 .main-tips{
     display: flex;
@@ -298,9 +316,357 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     padding: 5vw 0vw;
-    font-size: 20px;
+    font-size: 2vw;
+    font-weight: bold;
 }
 
 .tel-contact{
     margin-top: 3vw;
+}
+
+/*---------------------------rafle-----------------------*/
+
+.figure-raffle{
+    width: 49vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vw;
+    justify-content: space-evenly;
+}
+
+.figure-raffle img{
+    width: 40vw;
+    margin-top: 3vw;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    transition: transform 0.5s;
+}
+.figure-raffle img:hover{
+    transform: scale(1.1);
+}
+
+.main-raffle{
+    display: flex;
+}
+
+.form-raffle{
+    width: 49vw;
+    margin-top: 3vw;
+    padding: 0 8vw 0 8vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+#services{
+    height: 8vw;
+}
+
+#acepted{
+    margin-right: 10px;
+}
+
+label,
+fieldset h3{
+    margin-top: 1vw;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+fieldset>input,
+select{
+    height: 25px;
+}
+
+input[type=submit]{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: #0180FD;
+    border: 2px solid black;
+    color: white;
+    transition: transform 0.5s; 
+}
+input[type=submit]:hover{
+    transform: scale(1.2);
+}
+
+footer iframe{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0 40px 5vw;
+    border-radius: 5px;
+}
+
+footer{
+    border-top: 2px solid black;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.801);
+    margin-top: 30px;
+}
+
+/*--------------------------------SHOW DATA-----------------*/
+
+table{
+    width: 60vw;
+    margin-top: 2vw;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: rgb(197, 197, 197);
+}
+
+th{
+    background-color: goldenrod;
+}
+
+td, tr{
+    height: 4rem;
+}
+
+.main-show-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table tr:nth-child(even){
+    background-color: #a3a3a3b0;
+}
+
+table tr:hover{
+    background-color: antiquewhite;
+}
+
+
+/* tablets*/
+@media screen and (max-width: 1023px) {
+    .links{
+        font-size: 1.3rem;
+    }
+    .div-info-contact,
+    .contact,
+    .text-dumbbells,
+    .figures-about h4,
+    .ol-tips{
+        font-size: 1.3rem;
+    }
+    .titles-about h1,
+    .header-schelude h1,
+    .header-tips h1{
+        font-size: 3rem;
+    }
+    .titles-about h2,
+    .header-schelude h2,
+    .header-tips h2{
+        font-size: 2rem;
+    }
+}
+
+/* phone*/
+
+@media screen and (max-width:768px) { 
+
+    .links{
+        display: none;
+    }
+
+    .logo{
+        height: 30px;
+    }
+
+    nav{
+        height: 50px;
+    }
+
+    .nav{
+        display: block;
+        position: absolute;
+        top: 10px;
+        left: 20px;
+    }
+
+    .menu-options{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav>li{
+        float: left;
+    } 
+
+    .nav li{
+        list-style: none;
+    }
+
+    .nav a{
+        display: block;
+        background-color: white;
+        padding: 5px;
+        margin-right: 20px;
+        margin-bottom: 1px;
+        text-decoration: none;
+        min-width: 27vw;
+        max-width: 150px;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        border: 1px solid black;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .nav li a:hover{
+        background-color: rgb(112, 112, 112);
+        color: #000000;
+        text-shadow: none;
+    }
+
+    .nav li ul{
+        display: none;
+        position: absolute;
+        min-width: 30vw;
+    }
+
+    .nav li:hover >ul{
+        display: block;
+    }
+
+    .header-index,
+    .header-contact{
+        height: 40vw;
+    }
+
+    .text-dumbbells{
+        width: 80vw;
+        height: 60vw;
+    }
+
+    .header-index h1,
+    .header-contact h1{
+        font-size: 7vw;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    .header-index h2,
+    .header-contact h2{
+        font-size: 4vw;
+    }
+
+    .header-contact{
+        margin-top: 7vw;
+    }
+
+    .titles-home{
+        display: flex;
+        justify-content: center;
+    }
+
+    .div-info-contact,
+    .contact,
+    .text-dumbbells,
+    .figures-about h4{
+        font-size: 4vw;
+    }
+
+    .ol-tips li{
+        font-size: 4vw;
+    }
+
+    .titles-about h1,
+    .header-schelude h1,
+    .header-tips h1{
+        font-size: 2.5rem;
+    }
+    
+    .titles-about h2,
+    .header-schelude h2,
+    .header-tips h2{
+        font-size: 1.5rem;
+    }
+
+    .button-about{
+        font-size: 2vw;
+    }
+
+    .header-index{
+        margin-top: 6vw;
+    }
+
+    .info-about{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .figures-about img,
+    .figures-about h4{
+        width: 80vw;
+    }
+
+    .figures-about{
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+    }
+
+    .text-info-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact img{
+        width: 0.5vw;
+    }
+
+    .div-info-contact,
+    .contact{
+        width: 80vw;
+        height: auto;
+        padding-top: 5vw;
+    }
+
+    .main-tips,
+    .main-raffle{
+        flex-direction: column;
+        padding: 0 4vw;
+    }
+
+    .figure-tips,
+    .figure-raffle{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .ol-tips{
+        font-size: 4vw;
+    }
+
+    option{
+        font-size: 15px;
+    }
+
+    .form-raffle{
+        width: auto;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+.main-tips,
+.main-raffle{
+    margin: 0 8vw;
+}
 }
