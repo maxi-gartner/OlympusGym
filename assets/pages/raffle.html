@@ -23,11 +23,13 @@
                 <li>
                     <a href="">Pages</a>
                     <ul class="menu-options">
-                        <a href="./aboutUs.html">About Us</a>
-                        <a href="./contact.html">Contact</a>
-                        <a href="./Schedule.html">Schedule</a>
-                        <a href="./benefits-and-tips.html">Benefits and Tips</a>
-                        <a href="./raffle.html">Raffle</a>
+                        <li>
+                            <a href="./aboutUs.html">About Us</a>
+                            <a href="./contact.html">Contact</a>
+                            <a href="./Schedule.html">Schedule</a>
+                            <a href="./benefits-and-tips.html">Benefits and Tips</a>
+                            <a href="./raffle.html">Raffle</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -61,27 +63,23 @@
                 <fieldset>
                     <label for="garden">Choose Your Gender:</label>
                     <select name="garden" id="garden">
-                        <datalist>
                             <option>Select Garden</option>
                             <option value="first">First</option>
                             <option value="second">Second</option>
                             <option value="third">Third</option>
                             <option value="room">Room</option>
                             <option value="fifth">Fifth</option>
-                        </datalist>
                     </select>
                 </fieldset>
                 <fieldset>
                     <label for="country">Country:</label>
                     <select name="country" id="country">
-                        <datalist>
                             <option>Select Coutry</option>
                             <option value="arizona">Arizona</option>
                             <option value="california">California</option>
                             <option value="florida">Florida</option>
                             <option value="kansas">Kansas</option>
                             <option value="new-jersey">New Jersey</option>
-                        </datalist>
                     </select>
                 </fieldset>
                 <fieldset>
@@ -103,9 +101,9 @@
                     <label for="services">Services</label>
                     <input type="text" name="text-services" id="services">
                 </fieldset>
-                <fieldset style="flex-direction: row;">
+                <fieldset>
                     <label for="acepted">
-                        <input style="margin-right: 10px;" type="checkbox" name="acepted-terms" id="acepted" required>
+                        <input type="checkbox" name="acepted-terms" id="acepted" required>
                         I accepted terms and conditions...
                     </label>
                 </fieldset>
