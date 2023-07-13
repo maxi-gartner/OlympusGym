@@ -670,3 +670,19 @@ table tr:hover{
     margin: 0 8vw;
 }
 }
+.prueba{
+    height: 50px;
+    width: 100vw;
+}
+.div1{
+    display: inline-block;
+    height: 50px;
+    width: 90%;
+    background-color: red;
+}
+.div2{
+    display: inline-block;
+    height: 50px;
+    width: 9%;
+    background-color: blue;
+}
